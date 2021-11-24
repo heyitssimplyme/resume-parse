@@ -11,15 +11,15 @@ jobs:
         include:
           - name: linux
             os: ubuntu-latest
-            artifact_name: target/release/resume_parse
+            artifact_name: target/release/resume-parse
             asset_name: resume-parse-linux
           - name: windows
             os: windows-latest
-            artifact_name: target/release/resume_parse.exe
+            artifact_name: target/release/resume-parse.exe
             asset_name: resume-parse-win
           - name: macos
             os: macos-latest
-            artifact_name: target/release/resume_parse
+            artifact_name: target/release/resume-parse
             asset_name: resume-parse-mac
 
     steps:
